@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {SlimLoadingBarModule} from 'ng2-slim-loading-bar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { GoalListComponent } from './goal-list/goal-list.component';
   ],
   imports: [
     BrowserModule,
+    SlimLoadingBarModule,
     AppRoutingModule
   ],
   providers: [],
